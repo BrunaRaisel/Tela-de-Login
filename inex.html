@@ -26,27 +26,30 @@
                 <form action="" method="post" autocomplete="on">
 
                     <div class="campo">
-                        <!-- <label for="mail">E-mail</label> -->
+                        
                         <span class="material-symbols-outlined">
                             person
                         </span>
 
                         <input type="email" name="" id="mail" placeholder="Seu e-mail" autocomplete="email" required>
-
+                        <label for="mail">E-mail</label> 
                     </div>
 
                     <div class="campo">
-                        <!-- <label for="pass">Senha</label> -->
+                         
                         <span class="material-symbols-outlined">
                             vpn_key
                         </span>
-
                         <input type="password" name="" id="pass" value="" placeholder="Sua senha" autocomplete="current-password"> 
+                        <label for="pass">Senha</label>
+                    
                     </div>
 
-                    <input type="button" onclick="botao()" value="Entrar">
+                    <div class="center">
+                        <input type="submit" onclick="botao()" value="Entrar">
+                        <input type="submit" value="Esqueci minha senha">
+                    </div>
 
-                    <input type="button" value="Esqueci minha senha">
                 </form>
 
             </div>
